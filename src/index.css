@@ -1,0 +1,68 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.card {
+  display: flex;
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 600px;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}
+
+.card-image {
+  max-width: 40%;
+  min-width: 20%;
+}
+
+.card-image img {
+  width: 200px;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}
+
+.card-content {
+  padding-left: 30px;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.card-body {
+  margin-top: 10px;
+  font-size: 14px;
+  border-top: 1px solid black;
+}
+
+.subtitle {
+  font-size: 10px;
+  font-style: italic;
+}
+
+.pills {
+  background-color: rgb(93, 166, 93);
+  padding: 5px;
+  margin-left: 10px;
+}
